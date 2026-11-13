@@ -15,8 +15,9 @@
     <h1 class="text-center"><u>Introduction to the Digestive System</u></h1>
     <br>
     <br>
-    <img src="Digestion.jpg"height="800" width="400" class="width-left">
-    <div class="container">
+    <div class="intro-layout">
+        <img src="Digestion.jpg" alt="Digestive system diagram" class="width-left">
+        <div class="container intro-content">
             <div class="jumbotron">
             <h1 class="text-center"><u>What is The Digestive System?</u></h1>
      
@@ -30,12 +31,12 @@
                 <h3 class="text-center"><u>Types of Nutrients needed in Digestive System</u></h3>
               <br>
               <br>
-    <button type="reset" class="btn btn-info btn-lg" data-toggle="modal"data-target="#myModal">Macro-Nutrients</button>
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#macroModal">Macro-Nutrients</button>
    
 
 
   <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
+  <div class="modal fade" id="macroModal" role="dialog">
     <div class="modal-dialog">
    
       <!-- Modal content-->
@@ -64,21 +65,21 @@ Carbohydrates-the main source of energy that powers your body(bread,rice,pasta,g
       </div>
     </div>
   </div>
-<div class="width-right">
+<div class="nutrient-option">
   
-    <button type="reset" class="btn btn-info btn-lg" data-toggle="modal"data-target="#miccroModal">Micro-Nutrients</button>
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#microModal">Micro-Nutrients</button>
    
 
 
   <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
+  <div class="modal fade" id="microModal" role="dialog">
     <div class="modal-dialog">
    
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
           <button type="reset" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Micrts</h4>
+          <h4 class="modal-title">Micronutrients</h4>
         </div>
         <div class="modal-body">
           <p><u> Micronutrients are essential vitamins and minerals needed for the proper working of the body. </u></p>
@@ -100,6 +101,7 @@ Carbohydrates-the main source of energy that powers your body(bread,rice,pasta,g
       </div>
     </div>
   </div>
+     </div>
  <br>
  <br>
  <br>
@@ -173,9 +175,10 @@ Carbohydrates-the main source of energy that powers your body(bread,rice,pasta,g
 </h4>
 <img src="lower gi tract.jpg" height="600" width="50" class="center">
 
-      <button onclick="window.location='index.html'">HomePage</button>
-      <br>
-      <button onclick="window.location='CeliacDisease.html'">Celiac Disease</button>
+      <nav class="page-actions" aria-label="Page navigation">
+          <button type="button" onclick="window.location='index.html'">Home Page</button>
+          <button type="button" onclick="window.location='CeliacDisease.html'">Celiac Disease</button>
+      </nav>
       <footer>
     <marquee behavior="scroll" direction="left">This website is for educational purposes only. It is not intended to be a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition</marquee>
 Made by Shivaangi Puri
