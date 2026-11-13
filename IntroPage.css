@@ -16,7 +16,7 @@ padding-right: 90px;
 .jumbotron{
     height: 675px;
 
-    background-color: rgb(132, 85, 49);
+    background-color: rgb(251, 211, 179);
 }
 
 .center{
@@ -24,4 +24,7 @@ padding-right: 90px;
     margin-left: 20%;
     margin-right:20%;
     width: 60%;
+}
+body{
+    background-color: rgb(196, 143, 103);
 }
