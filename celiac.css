@@ -14,7 +14,7 @@ padding-right: 150px;
 padding-right: 90px;
 }
 .jumbotron{
-    height: 909090x;
+    height: auto;
 
     background-color: rgb(132, 85, 49);
 }
@@ -28,4 +28,3 @@ padding-right: 90px;
 body{
     background-color: rgb(196, 143, 103);
 }
-
